@@ -41,7 +41,7 @@ a {
 a:hover,
 a:focus {
   text-decoration: none;
-  color: #72C05B;
+  color: #cbe0c5;
 }
 
 hr {
@@ -92,11 +92,11 @@ hr {
 }
 .btn.btn-primary {
   background: #72C05B;
-  border-color: #72C05B;
+  border-color: #dbf7d3;
 }
 .btn.btn-primary:hover,
 .btn.btn-primary:focus {
-  background: #85c472;
+  background: #a5cc99;
 }
 .column-title {
   margin-top: 0;
